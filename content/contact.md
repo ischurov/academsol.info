@@ -68,9 +68,9 @@ author: "Академическая Солидарность"
 .form-style-6 textarea:focus,
 .form-style-6 select:focus
 {
-	box-shadow: 0 0 5px #111;
+	box-shadow: 0 0 5px #888;
 	padding: 3%;
-	border: 1px solid #111;
+	border: 1px solid #888;
 }
 
 .form-style-6 input[type="submit"],
