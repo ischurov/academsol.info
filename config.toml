@@ -1,0 +1,72 @@
+baseURL = "https://academsol.info/"
+languageCode = "ru-ru"
+title = "Академическая Солидарность"
+theme = "anubis"
+paginate = 3
+
+disqusShortname = ""
+googleAnalytics = ""
+
+[author]
+name = "Академическая Солидарность"
+
+[params]
+author = "Академическая Солидарность"
+description = "Ассоциация российских ученых и преподавателей в Европе «Академическая солидарность» – объединение  преподавателей, исследователей и аспирантов, работающих и учащихся в Европе, стоящих на антивоенных позициях и считающих необходимыми демократические преобразования в России."
+dateFormat = "2006-01-02"
+paginationSinglePost = true
+style = "auto"
+readMore = false
+readNextPosts = 2
+copyCodeButton = true
+rssAsSocialIcon = true
+
+# Graphcomment support
+graphcommentId = ""
+
+# utteranc.es support
+#utterancesRepo = ""  # mandatory
+#utterancesTheme = "" # optional
+#utterancesIssue = "" # optional
+#utterancesLabel = "" # optional
+#
+#[[params.social]]
+#id = "docs"
+#url = "https://gohugo.io/documentation/"
+#
+#[[params.social]]
+#id = "github"
+#url = "https://github.com/mitrichius/hugo-theme-anubis"
+
+[menu]
+
+[[menu.main]]
+identifier = "news"
+name = "Новости"
+url = "/posts/"
+weight = 1
+
+[[menu.main]]
+identifier = "declaration"
+name = "Декларация"
+url = "/declaration/"
+weight = 2
+
+[[menu.main]]
+identifier = "contact"
+name = "Контакты"
+url = "/contact/"
+weight = 3
+
+#[[menu.main]]
+#name = "Archive"
+#identifier = "archive"
+#url = "/posts/"
+#weight = 3
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[markup.goldmark.renderer]
+unsafe = true
